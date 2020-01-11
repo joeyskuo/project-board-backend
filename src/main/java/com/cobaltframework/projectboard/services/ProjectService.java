@@ -15,4 +15,9 @@ public class ProjectService {
 	public Project saveOrUpdateProject(Project project) {
 		return projectRepository.save(project);
 	}
+
+	public Project findProjectByIdentifier(String projectId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
